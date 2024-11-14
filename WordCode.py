@@ -8,8 +8,8 @@ class WordCodeGame:
         self.kategori = kategori  # Kategori yang dipilih pemain
         # Daftar kata berdasarkan kategori
         self.kata_kategori = {
-            "hewan": ["gajah", "singa", "kucing", "burung", "ikan", "kelinci", "harimau"],
-            "buah-buahan": ["apel", "pisang", "jeruk", "mangga", "melon", "semangka"],
+            "hewan": ["gajah", "singa", "kucing", "burung", "ikan", "kelinci", "harimau", "kalajengking"],
+            "buah-buahan": ["apel", "pisang", "jeruk", "mangga", "melon", "semangka", "durian"],
             "nama dosen": ["mahyus", "husaini", "arie", "kikye", "rasudin", "zulfan", "muslim"],
             "nama jurusan di MIPA": ["matematika", "fisika", "kimia", "biologi", "statistika", "informatika", "manajemeninformatika"]
         }
