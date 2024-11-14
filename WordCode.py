@@ -9,7 +9,7 @@ class WordCodeGame:
         # Daftar kata berdasarkan kategori
         self.kata_kategori = {
             "hewan": ["gajah", "singa", "kucing", "burung", "ikan", "kelinci", "harimau", "kalajengking"],
-            "buah-buahan": ["apel", "pisang", "jeruk", "mangga", "melon", "semangka", "durian"],
+            "buah-buahan": ["apel", "pisang", "jeruk", "mangga", "melon", "semangka", "durian", "Anggur"],
             "nama dosen": ["mahyus", "husaini", "arie", "kikye", "rasudin", "zulfan", "muslim"],
             "nama jurusan di MIPA": ["matematika", "fisika", "kimia", "biologi", "statistika", "informatika", "manajemeninformatika"]
         }
