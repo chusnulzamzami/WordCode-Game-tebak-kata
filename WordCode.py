@@ -11,7 +11,7 @@ class WordCodeGame:
             "hewan": ["gajah", "singa", "kucing", "burung", "ikan", "kelinci", "harimau", "kalajengking"],
             "buah-buahan": ["apel", "pisang", "jeruk", "mangga", "melon", "semangka", "durian", "anggur"],
             "nama dosen": ["mahyus", "husaini", "arie", "kikye", "rasudin", "zulfan", "muslim"],
-            "nama jurusan di MIPA": ["matematika", "fisika", "kimia", "biologi", "statistika", "informatika", "manajemeninformatika"]
+            "nama jurusan di MIPA": ["matematika", "fisika", "kimia", "biologi", "statistika", "informatika", "manajemeninformatika", "farmasi"]
         }
         # Memilih kata secara acak dari kategori yang dipilih
         self.kata = random.choice(self.kata_kategori[kategori])
