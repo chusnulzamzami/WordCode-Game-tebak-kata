@@ -107,18 +107,7 @@ def pilih_kategori():
         print("Pilihan tidak valid. Silakan pilih lagi.")
         return pilih_kategori()
 
-# Fungsi menu utama permainan
-def main_menu():
-    print("=== Menu Utama ===")
-    nama_pemain = input("Masukkan nama Anda: ")  # Input nama pemain
-    print(f"\nSelamat datang di permainan WordCode, {nama_pemain}! Silahkan pilih menu bagian bawah ini untuk memulai permainan.")
-    # Looping menu utama
-    while True:
-        print("\n1. Mulai Permainan")
-        print("2. Deskripsi Permainan")
-        print("3. Tata Cara bermain")
-        print("4. Keluar")
-        pilihan = input("Pilih opsi (1/2/3/4): ")
+
 
         # Menjalankan fungsi sesuai pilihan pemain
         if pilihan == '1':
